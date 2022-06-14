@@ -389,3 +389,37 @@ footer {
     align-items: center;
   }
 }
+
+@media (max-width: 510px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .image__profile img {
+    width: 300px;
+  }
+
+  .main__pre {
+    margin-left: -50px;
+  }
+
+  code {
+    font-size: 10px;
+  }
+
+  .footer__list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 475px) {
+  code {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  code {
+    font-size: 10px;
+  }
+}
