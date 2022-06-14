@@ -210,3 +210,42 @@ code {
   list-style: none;
   padding: 0px;
 }
+
+footer {
+  background-color: #10414d;
+  display: flex;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0px;
+  width: 100%;
+}
+
+.footer__item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__github {
+  background: url(./assets/svg/github_logo.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 121px;
+  height: 72px;
+}
+
+.footer__rsschool {
+  background: url(./assets/svg/rs_school_js.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  width: 121px;
+  height: 72px;
+}
