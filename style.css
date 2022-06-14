@@ -249,3 +249,45 @@ footer {
   width: 121px;
   height: 72px;
 }
+
+@media (max-width: 1110px) {
+  p {
+    font-size: 15px;
+  }
+
+  code {
+    font-size: 15px;
+  }
+
+  .footer__item p {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  main {
+    flex-direction: column;
+  }
+
+  .block__left {
+    background-color: #F7F9FB;
+  }
+
+  .main__link i {
+    color: #306374;
+  }
+}
+
+@media (max-width: 930px) {
+  .header {
+    justify-content: flex-start;
+  }
+
+  .logo img {
+    width: auto;
+  }
+
+  .nav__list a {
+    font-size: 12px;
+  }
+}
